@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Telekom-Style Landingpage</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <!-- Header mit Burger-Menü -->
+  <header class="header">
+    <div class="logo">LOGO</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#slider">Bühne</a></li>
+        <li><a href="#usp1">USP 1</a></li>
+        <li><a href="#usp2">USP 2</a></li>
+        <li><a href="#usp3">USP 3</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+    </nav>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- Vollbild-Bühne (Slider) -->
+  <section id="slider" class="slider">
+    <div class="slide active" style="background-image:url('https://source.unsplash.com/1600x900/?technology,1')"></div>
+    <div class="slide" style="background-image:url('https://source.unsplash.com/1600x900/?technology,2')"></div>
+    <div class="slide" style="background-image:url('https://source.unsplash.com/1600x900/?technology,3')"></div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </section>
+
+  <!-- Drei USP-Abschnitte mit Parallax-Effekt -->
+  <section id="usp1" class="parallax parallax-1">
+    <div class="content">
+      <h2>USP 1</h2>
+      <p>Hier könnte ein überzeugender USP stehen – visuell und inhaltlich stark inszeniert.</p>
+    </div>
+  </section>
+
+  <section id="usp2" class="parallax parallax-2">
+    <div class="content">
+      <h2>USP 2</h2>
+      <p>Dieser Abschnitt könnte weitere Vorteile oder Produktfeatures vorstellen.</p>
+    </div>
+  </section>
+
+  <section id="usp3" class="parallax parallax-3">
+    <div class="content">
+      <h2>USP 3</h2>
+      <p>Eine letzte besonders starke Argumentation für dein Produkt.</p>
+    </div>
+  </section>
+
+  <!-- Newsletter-Anmeldung -->
+  <section id="newsletter" class="newsletter">
+    <h2>Melde dich zum Newsletter an</h2>
+    <form>
+      <input type="email" placeholder="Deine E-Mail-Adresse" required>
+      <button type="submit">Anmelden</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Deine Firma. Alle Rechte vorbehalten.</p>
+  </footer>
+
+</body>
+</html>
