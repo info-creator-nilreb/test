@@ -18,17 +18,21 @@ body, html {
 .header {
   position: fixed;
   width: 100%;
+
   background: var(--dark);
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   z-index: 999;
 }
 .logo { font-weight: bold; color: var(--magenta); }
 .nav ul { display: flex; list-style: none; margin: 0; padding: 0; }
 .nav ul li a {
+
   color: var(--light);
   text-decoration: none;
   margin-left: 1.5rem;
@@ -116,9 +120,11 @@ body, html {
   justify-content: center;
   align-items: center;
 }
+
 .parallax-1 { background-image: url('https://source.unsplash.com/1600x900/?qr-code'); }
 .parallax-2 { background-image: url('https://source.unsplash.com/1600x900/?compliance'); }
 .parallax-3 { background-image: url('https://source.unsplash.com/1600x900/?sustainability,analytics'); }
+
 .parallax .content {
   background: rgba(255,255,255,0.8);
   padding: 2rem;
@@ -175,6 +181,7 @@ body, html {
   .nav ul li {
     margin: 1rem 0;
   }
+
   .nav ul li a {
     color: var(--dark);
   }
