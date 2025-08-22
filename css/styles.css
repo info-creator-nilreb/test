@@ -75,6 +75,37 @@ body, html {
 .prev { left: 10px; }
 .next { right: 10px; }
 
+/* Text-Overlay auf der Bühne */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background: var(--magenta);
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+.hero-overlay h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+}
+.hero-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.hero-overlay .cta {
+  background: var(--light);
+  color: var(--magenta);
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
 /* Parallax-Abschnitte */
 .parallax {
   height: 100vh;
@@ -85,9 +116,11 @@ body, html {
   justify-content: center;
   align-items: center;
 }
-.parallax-1 { background-image: url('https://source.unsplash.com/1600x900/?abstract,1'); }
-.parallax-2 { background-image: url('https://source.unsplash.com/1600x900/?abstract,2'); }
-.parallax-3 { background-image: url('https://source.unsplash.com/1600x900/?abstract,3'); }
+
+.parallax-1 { background-image: url('https://source.unsplash.com/1600x900/?qr-code'); }
+.parallax-2 { background-image: url('https://source.unsplash.com/1600x900/?compliance'); }
+.parallax-3 { background-image: url('https://source.unsplash.com/1600x900/?sustainability,analytics'); }
+
 .parallax .content {
   background: rgba(255,255,255,0.8);
   padding: 2rem;
@@ -143,5 +176,9 @@ body, html {
   }
   .nav ul li {
     margin: 1rem 0;
+  }
+
+  .nav ul li a {
+    color: var(--dark);
   }
 }
