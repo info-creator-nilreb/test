@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Telekom-Style Landingpage</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <!-- Header mit Burger-Menü -->
+  <header class="header">
+    <div class="logo">LOGO</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#slider">Spotlight</a></li>
+        <li><a href="#usp1">Expertise</a></li>
+        <li><a href="#usp2">Erfolgsstories</a></li>
+        <li><a href="#usp3">MMS erleben</a></li>
+        <li><a href="#newsletter">Karriere</a></li>
+      </ul>
+    </nav>
+    <div class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- Vollbild-Bühne (Slider) -->
+  <section id="slider" class="slider">
+    <div class="slide active" style="background-image:url('https://source.unsplash.com/1600x900/?digital,passport')">
+      <div class="hero-overlay">
+        <h1>Digitaler Produktpass</h1>
+        <p>Neue Horizonte für Ihr Business</p>
+        <a href="#usp1" class="cta">Jetzt entdecken</a>
+      </div>
+    </div>
+    <div class="slide" style="background-image:url('https://source.unsplash.com/1600x900/?supply-chain')"></div>
+    <div class="slide" style="background-image:url('https://source.unsplash.com/1600x900/?sustainability')"></div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </section>
+
+  <!-- Drei USP-Abschnitte mit Parallax-Effekt -->
+  <section id="usp1" class="parallax parallax-1">
+    <div class="content">
+      <h2>Transparente Lieferkette</h2>
+      <p>Verfolgen Sie jedes Produkt digital – vom Ursprung bis zum Recycling.</p>
+    </div>
+  </section>
+
+  <section id="usp2" class="parallax parallax-2">
+    <div class="content">
+      <h2>Regulatorische Sicherheit</h2>
+      <p>Automatisierte Nachweise erleichtern die Einhaltung aktueller Vorschriften.</p>
+    </div>
+  </section>
+
+  <section id="usp3" class="parallax parallax-3">
+    <div class="content">
+      <h2>Nachhaltige Insights</h2>
+      <p>Daten in Echtzeit ermöglichen nachhaltige Entscheidungen entlang der Wertschöpfungskette.</p>
+    </div>
+  </section>
+
+  <!-- Newsletter-Anmeldung -->
+  <section id="newsletter" class="newsletter">
+    <h2>Melde dich zum Newsletter an</h2>
+    <form>
+      <input type="email" placeholder="Deine E-Mail-Adresse" required>
+      <button type="submit">Anmelden</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Deine Firma. Alle Rechte vorbehalten.</p>
+  </footer>
+
+</body>
+</html>
